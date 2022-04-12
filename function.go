@@ -202,7 +202,7 @@ type AlertHookData struct {
 	OrganizationId   string
 	OrganizationName string
 	ServerOrRegion   string
-	Severity         string
+	Severity         int
 	Source           string
 	Title            string
 }
